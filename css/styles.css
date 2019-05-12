@@ -1,0 +1,75 @@
+/*
+#FF6138 - orange
+#FFFF75 - yellow
+#BEEB9F - mint
+#5ABD70 - seafoam
+#00A388 - bluegreen
+#F1F4F4 - white
+#000000 - black
+*/
+
+
+#salutation {
+  text-align: center;
+  font-size: 35px;
+  /*margin: 0;*/
+}
+
+body {
+  font-family: Tahoma, Verdana, sans-serif;
+  margin: 0;
+  color: #000000;
+  font-size: 15px;
+}
+
+.contentWrap {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 30px 50px 50px;
+}
+
+h2 {
+  font-size: 30px;
+  line-height: 130%;
+  margin-top: 0;
+}
+
+.links {
+  text-decoration: none;
+  color: #F1F4F4;
+  margin: 20px;
+}
+.links:hover {
+  color: gray;
+  text-decoration: none;
+}
+
+.nav {
+  background: #000000;
+  text-align: center;
+  display: none;
+}
+
+/*Main Sections*/
+.hello {
+  text-align: center;
+}
+
+.games {
+  background: #FF6138;
+  text-align: center;
+}
+
+.recordings {
+  background: #FFFF75;
+  text-align: center;
+}
+
+.contact {
+  background: #00A388;
+  text-align: center;
+}
+
+.contact a {
+  margin: 10px;
+}
